@@ -7,10 +7,11 @@ namespace Week3OOP
     {
 
         //CONSTRUCTOR
-        public Car(string make, string model, int mxSpd):base(make, model, mxSpd)
+        public Car(string make, string model, int mxSpd) : base(make, model, mxSpd) 
         {
-
+            
         }
+
 
         //Do something different from other vehicles
         //Ovveride the base class method for PRINTDETAILS
@@ -19,6 +20,27 @@ namespace Week3OOP
             //base.PrintDetails();
             Console.WriteLine($"The Car does things differently and it is a " +
                 $"{Make} {Model} has a top speed of {MaxSpeed} kph.");
+        }
+
+        public override void Drive()
+        {
+            Console.WriteLine("The Car is driving");
+        }
+
+        public override void Drive(int currSpd)
+        {
+            int speedLimit = CheckSpeedLimit();
+            if (currSpd > speedLimit)
+            {
+                Console.WriteLine($"The cops are comming!!!!" +
+                    $"The Car is driving at {currSpd} kph");
+
+            }
+            else
+            {
+                Console.WriteLine($"We are following the {speedLimit}kph speed limit." +
+                    $"The Car is driving at {currSpd} kph");
+            }
         }
     }
 }

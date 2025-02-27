@@ -8,5 +8,15 @@ namespace Week3OOP
         {
 
         }
+
+        public override void Drive()
+        {
+            Console.WriteLine("The Truck is driving");
+        }
+
+        public override void Drive(int currSpd)
+        {
+            Console.WriteLine($"The Truck is driving at {currSpd} kph");
+        }
     }
 }
