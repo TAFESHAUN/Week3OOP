@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3OOP", "Week3OOP\Week3OOP.csproj", "{44D20049-E88A-4CF3-BA17-4C27CD1B1A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wk5APIE", "Wk5APIE\Wk5APIE.csproj", "{0E6728A8-6760-4D09-8DB9-2FC10F1AE7B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{44D20049-E88A-4CF3-BA17-4C27CD1B1A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44D20049-E88A-4CF3-BA17-4C27CD1B1A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44D20049-E88A-4CF3-BA17-4C27CD1B1A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6728A8-6760-4D09-8DB9-2FC10F1AE7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6728A8-6760-4D09-8DB9-2FC10F1AE7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6728A8-6760-4D09-8DB9-2FC10F1AE7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6728A8-6760-4D09-8DB9-2FC10F1AE7B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
